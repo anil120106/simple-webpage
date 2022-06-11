@@ -1,0 +1,51 @@
+    <!-- <table border="1">
+        <tr>
+            <td>Logo</td>
+            <td colspan="3">Menu</td>
+        </tr>
+        <tr>
+            <td colspan="4">Text</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+    </table> -->
+    <!-- <header>
+        <div class="d-flex">
+            <div>logo</div>
+            <div>Menu</div>
+        </div>
+    </header>
+    <section>
+        <p>main</p>
+    </section>
+    <footer class="d-flex">
+        <div class="item">1</div>
+        <div class="item">2</div>
+        <div class="item">3</div>
+        <div class="item">4</div> -->
+    
+    <!-- </footer> -->
+////////////////////////////////////////////
+<header>
+    <div class="d-flex">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+</header>
+<section>
+    <main class="d-flex">
+        <div>4</div>
+        <div side="right">5</div>
+    </main>
+</section>
+<footer class="d-flex">
+    <div class="item">6</div>
+    <div class="item">7</div>
+    <div class="item">8</div>
+    <div>9</div>
+</footer>
