@@ -1,0 +1,83 @@
+html,body{
+    margin: 0%;
+height: 100%;
+}
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    margin: 15px;
+}
+.nav a{
+    margin-right:20px
+}
+.nav button{
+    margin-right: 20px;
+}
+.nav svg{
+    margin-right: 20px;
+} 
+.middle{
+flex-grow: 1;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+#logo{
+    text-align: center;
+}
+.searchbarcontainer{
+    text-align: center;
+}
+#searchbar{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    outline: 0ch;
+    width: 500px;
+    border-radius: 15px;
+    border:1px solid #c4c4c4;
+
+}
+#buttons{
+margin-top: 20px;
+display: flex;
+justify-content: center;
+}
+#button{
+margin-left: 10px;
+margin-right: 10px;
+padding: 10px 10px;
+cursor: pointer;
+border-radius: 3px;
+background:rgb(205, 201, 201);
+border: 2px solid transparent;
+font-size: large;
+} 
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+#searchbar:hover{
+box-shadow: 0 0 10px 2px rgb(159, 155, 155);
+}
+
+#link{
+    text-align: center;
+    /* padding: 20px;  */
+    margin-top: 20px;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+#footercontent{
+    background: #eee;
+    border-top: 1px solid black;
+    padding: 10px;
+}
+#button:hover{
+    box-shadow:0 0 2px 1px black ;
+    border: 2px solid #eee;
+}
